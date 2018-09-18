@@ -1,0 +1,66 @@
+Welcome to the XWin X Server
+Vendor: Moba/X
+Release: 1.16.3.0
+OS: Unknown  [Windows NT 10.0 build 15063] (WoW64)
+Package: version  built 2015-05-28
+
+XWin was started with the following command line:
+
+
+ C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\bin\XWin_MobaX.exe 
+ -silent-dup-error -notrayicon -nolisten inet6 -hostintitle +bs 
+ -clipboard -nowgl -multiwindow -noreset :0 
+
+ddxProcessArgument - Initializing default screens
+winInitializeScreenDefaults - primary monitor w 1024 h 768
+winInitializeScreenDefaults - native DPI x 96 y 96
+(==) FontPath set to /usr/share/fonts/misc/
+(==) FontPath set to C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/misc/
+(==) FontPath set to /usr/share/fonts/TTF/
+(==) FontPath set to C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/TTF/
+(==) FontPath set to /usr/share/fonts/OTF/
+(==) FontPath set to C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/OTF/
+(==) FontPath set to /usr/share/fonts/Type1/
+(==) FontPath set to C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/Type1/
+(==) FontPath set to /usr/share/fonts/100dpi/
+(==) FontPath set to C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/100dpi/
+(==) FontPath set to /usr/share/fonts/75dpi/
+(==) FontPath set to C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/75dpi/
+(==) FontPath set to "C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/misc/,C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/TTF/,C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/OTF/,C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/Type1/,C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/100dpi/,C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash/usr/share/fonts/75dpi/"
+(==) Setting XKEYSYMDB path to XKEYSYMDB=C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\usr\share\X11\XKeysymDB
+(==) Setting XERRORDB path to XERRORDB=C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\usr\share\X11\XErrorDB
+(==) Setting XLOCALEDIR path to XLOCALEDIR=C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\usr\share\X11\locale
+(==) Logfile set to "C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\var\log\xwin\XWin.0.log"
+(==) Setting XKB path to C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\usr\share\X11\xkb
+[   864.234] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[   864.234] winDetectSupportedEngines - Returning, supported engines 00000015
+[   864.234] winSetEngine - Multi Window or Rootless => ShadowGDI
+[   864.234] winScreenInit - Using Windows display depth of 32 bits per pixel
+[   864.250] winAllocateFBShadowGDI - Creating DIB with width: 1024 height: 768 depth: 32
+[   864.250] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[   864.250] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[   864.296] Warning: Locale not supported by X, falling back to 'C' locale.
+[   864.421] (II) AIGLX: enabled GLX_EXT_texture_from_pixmap
+[   864.421] (II) AIGLX: Loaded and initialized swrast
+[   864.421] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[   864.609] (II) [XKB]  "C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\var\log\xwin\xkb_a05092" file successfully created.
+[   864.609] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[   864.609] (II) [XKB]  "C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\usr\share\X11\xkb" -xkm "C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\var\log\xwin\xkb_a05092" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\var\log\xwin\server-0.xkm"
+[   864.609] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[   864.750] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\ADMINI~1\DOCUME~1\MobaXterm\slash\var\log\xwin\xkb_a05092"
+[   864.750] winPointerWarpCursor - Discarding first warp: 512 384
+[   864.750] (--) 3 mouse buttons found
+[   864.750] (--) Setting autorepeat to delay=500, rate=31
+[   864.750] (--) Windows keyboard layout: "00000409" (00000409) "US", type 7
+[   864.750] (--) Found matching XKB configuration "English (USA)"
+[   864.750] (--) Model = "pc105" Layout = "us" Variant = "none" Options = "none"
+[   864.750] Rules = "base" Model = "pc105" Layout = "us" Variant = "none" Options = "none"
+[   864.750] winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
+[   864.750] winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
+[   864.765] winProcEstablishConnection - winInitClipboard returned.
+[   864.765] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
+[   864.765] winInitMultiWindowWM - XOpenDisplay () returned and successfully opened the display.
+[   864.765] OS maintains clipboard viewer chain: yes
+[   864.765] winMultiWindowXMsgProc - XOpenDisplay () returned and successfully opened the display.
+[   864.765] winClipboardProc - XOpenDisplay () returned and successfully opened the display.
+[   868.796] winWindowProc - WM_EXITSIZEMOVE

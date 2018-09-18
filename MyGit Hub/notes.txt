@@ -1,0 +1,3 @@
+dowhile : Java do while loop is used to execute a block of statements continuously until the given condition is true. do while loop in java is similar to while loop except that the condition is check after the statements are executed, so do while loop guarantees the loop execution at least once.
+While : The only time you should use do while loop is when you want to execute the statements inside loop at least once, even though condition expression returns false. Otherwise it’s always better to use while loop.
+For : 
